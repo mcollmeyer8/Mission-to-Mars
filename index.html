@@ -36,8 +36,12 @@
                 <img src="{{mars.featured_image }}" class="img-responsive" alt="Responsive image">
             </div>
         </div>
-        <!-- Mars Facts -->
         <div class="col-md-4">
+            <!-- Mars Facts -->
+            <div class="row" id="mars-facts">
+                <h4>Mars Facts</h4>
+                {{ mars.facts | safe }}
+            </div>
         </div>
     </div>
 </body>
