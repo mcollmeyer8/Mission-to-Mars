@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # Import Splinter, BeautifulSoup, and Pandas
 from dataclasses import dataclass
 from splinter import Browser
